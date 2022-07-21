@@ -1,0 +1,114 @@
+body{
+  background-color: #AFD0BF;
+  font-family: monospace;
+  font-size: 2em
+}
+
+h1{
+  font-size: 50px;
+  Text-align: center;
+  background-color: #EC7357;
+}
+
+h2 span {
+  color: #9B7E46;
+}
+
+p span {
+  font-style: italic;
+  color: rgb(233, 56, 70);
+}
+
+#pictures {
+  width: 60%;
+  background-color: #CEC288;
+  margin: auto;
+  border-radius: 15px;
+  position: center;
+  display: flex;
+  justify-content: space-between; 
+  }
+
+h2{
+  text-align: center;
+}
+
+div img{
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+  margin: auto;
+  Border: solid
+ }
+
+.video{
+  margin: auto;
+  background-color: #FFE381;
+  width: 75%;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  border-radius: 25px;
+  border-style: dashed;
+  border-color: #98B06F;
+}
+
+a{
+  background-color: #f4511e;
+  border-radius: 50px;
+  color: black;
+  padding: 3px 7px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+ }
+
+a:hover {
+  opacity: 1.5;
+  color: white;
+}
+
+.table{
+ display: flex;
+ justify-content: center;
+}
+
+.table td{
+  text-align: center;
+  padding: 20px;
+  margin: 15px;
+  border: 1px solid;
+  background-color: #710000;
+  color: white;
+}
+
+.table th{
+  border: 3px dashed;
+  background-color: #A63C06;
+}
+
+#cost-g{
+  color: #62AB37;
+}
+
+#cost-y{
+  color: #F4E409;
+}
+
+#cost-o{
+  color: #F39016;
+}
+
+.green-c:hover{
+  color: green;
+}
+
+.yellow-c:hover{
+  color: yellow;
+}
+
+.orange-c:hover{
+  color: orange;
+}
